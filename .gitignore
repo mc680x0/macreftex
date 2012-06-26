@@ -1,0 +1,6 @@
+*.log
+*.out
+macref.pdf
+*.aux
+*~
+staging/

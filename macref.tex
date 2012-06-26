@@ -1,0 +1,84 @@
+% -*- coding: utf-8 -*-
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% Page Size (ISO A4)
+\documentclass[a4paper,11pt,twoside]{book}
+\pdfpagewidth 8.27in
+\pdfpageheight 11.69in
+\usepackage[total={8.27in,11.69in},]{geometry}
+\geometry{inner=1in,outer=0.5in,top=0.5in,bottom=0.5in}
+\geometry{bindingoffset=0.0in}
+
+% Packages
+\usepackage{graphicx}
+\usepackage{sidecap}
+\usepackage{booktabs} 
+\usepackage{paralist} 
+\usepackage{verbatim}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{subfig} 
+\usepackage{xfrac} 
+\usepackage[version=3]{mhchem} 
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{hyperref} 
+\hypersetup{ 
+	pdftitle={Macintosh Hardware Reference},
+	pdfauthor={-}, 
+	colorlinks=true, 		% ew, boxes 
+	linkcolor=RoyalBlue, 		% internal links 
+	citecolor=Violet, 		% bibliography 
+	filecolor=Periwinkle, 		% external files 
+	urlcolor=BlueViolet, 		% external links 
+	}
+\usepackage{float}
+\usepackage{wrapfig}
+
+% Section Title Appearance
+\usepackage{sectsty}
+\allsectionsfont{\fontfamily{ptm}\mdseries\upshape}
+\sectionfont{\newpage\LARGE\centering\scshape}
+\subsectionfont{\Large\scshape}
+\subsubsectionfont{\large\bfseries}
+\renewcommand{\sectionrule}{{\color{RoyalBlue}\rule[16pt]{\linewidth}{1.5pt}\vspace{-16pt}\\}}
+\newcommand{\subsectionrule}{{\color{RoyalBlue}\rule[11pt]{\linewidth}{1pt}\vspace{-11pt}\\}}
+
+% ToC (table of contents) Appearance
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage[titles,subfigure]{tocloft} 
+\renewcommand{\cftsecfont}{\Large\rmfamily\bfseries\upshape\color{CadetBlue}}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} 
+
+% Headers and Footers
+\usepackage{fancyhdr} 
+\pagestyle{fancy} 
+\renewcommand{\headrulewidth}{0pt} 
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[LE,RO]{\thepage}}
+
+% Typeface Appearance
+\renewcommand{\rmdefault}{ppl}
+\renewcommand{\sfdefault}{jcl}
+\renewcommand{\ttdefault}{pcr}
+
+% !- Document STARTS HERE -!
+\title{\includegraphics[height=4in]{toplevel/title.pdf} \\ ~ \\ ~ \\ \Huge{Classic Macintosh \\ Hardware and Peripherals \\ } \huge{ ~ \\ \textsc{A Field Reference for Geeks}}}
+\date{}
+\author{Horst Burkhardt}
+
+\begin{document}
+\maketitle
+
+\cleardoublepage
+\input{00_foreword.tex}
+
+\cleardoublepage
+\input{01_meta68k.tex}
+
+\cleardoublepage
+\input{02_metappc.tex}
+
+\end{document}
