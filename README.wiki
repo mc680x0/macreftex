@@ -1,15 +1,15 @@
-'''macreftex''', or ''Classic Macintosh Hardware and Peripherals: A Field Reference for Geeks'', seeks to be a compendium of practical information regarding 
+'''macref''', or ''Classic Macintosh Hardware and Peripherals: A Field Reference for Geeks'', seeks to be a compendium of practical information regarding 
 Apple Macintosh computers of the Old World variety. It is written in the hopes of enabling those who otherwise would not be capable to maintain old Macintoshes. 
 
 == Licence ==
-'''macreftex''' is licenced under the Creative Commons [http://creativecommons.org/licenses/by-nc-nd/3.0/ CC BY-ND-NC]. This means that redistribution must be done with attribution to the author (Horst Burkhardt), 
+'''macref''' is licenced under the Creative Commons [http://creativecommons.org/licenses/by-nc-nd/3.0/ CC BY-ND-NC]. This means that redistribution must be done with attribution to the author (Horst Burkhardt), 
 that it is not permissible to create derivative works, and that any redistribution of macreftex may not be for profit (non-commercial). These licence terms are subject 
 to change as it becomes clearer how to appropriately licence such a work as this. 
 
 == What is an Old World Mac? ==
 An Old World Macintosh, strictly speaking, refers to any Macintosh with the Mac OS Toolbox stored in ROM. The last of these were the Wallstreet and PDQ (Wallstreet II) in the PowerBook
-line, and the Power Macintosh G3 Beige (Desktop, Minitower, AIO) in the Macintosh line. These machines, and all machines introduced prior to them, are covered by this work. 
+line, and the Power Macintosh G3 (Desktop, Minitower, AIO) in the Power Macintosh line. These machines, and all machines introduced prior to them, are covered by this work. 
 
 == Credits ==
-Covered better in the book, but off the top of my head I'd like to thank the [http://68kmla.net/ 68k Macintosh Liberation Army], Ian Page for creating [http://www.mactracker.net/ Mactracker], 
-and all those that came before me in documenting the Macintosh series computers. 
+Covered better in the book, but off the top of my head I'd like to thank the users of the [http://68kmla.net/ 68k Macintosh Liberation Army], Ian Page for creating [http://www.mactracker.net/ Mactracker], 
+and everyone else who did most of the groundwork in documenting the Macintosh series computers. "If I have seen farther, it was by standing on the shoulders of giants." 
