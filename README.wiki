@@ -10,6 +10,10 @@ to change as it becomes clearer how to appropriately licence such a work as this
 An Old World Macintosh, strictly speaking, refers to any Macintosh with the Mac OS Toolbox stored in ROM. The last of these were the Wallstreet and PDQ (Wallstreet II) in the PowerBook
 line, and the Power Macintosh G3 (Desktop, Minitower, AIO) in the Power Macintosh line. These machines, and all machines introduced prior to them, are covered by this work. 
 
+== Why cut off at Old World? ==
+The Macintosh line may well outlive me. Creating a perpetually up-to-date spec and tech guide would be, consequently, an impractical undertaking. It just so happens that all the Macintosh 
+computers I'm most fond of are Old World; hence, I hope to document that which I love. 
+
 == Credits ==
 Covered better in the book, but off the top of my head I'd like to thank the users of the [http://68kmla.net/ 68k Macintosh Liberation Army], Ian Page for creating [http://www.mactracker.net/ Mactracker], 
 and everyone else who did most of the groundwork in documenting the Macintosh series computers. "If I have seen farther, it was by standing on the shoulders of giants." 
